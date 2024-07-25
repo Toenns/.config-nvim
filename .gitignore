@@ -1,0 +1,8 @@
+.vim_runtime/
+plugin/packer_compiled.lua
+*.json
+ref_init_.lua
+lazy-lock.json
+syntax
+colors
+syntax
