@@ -7,6 +7,8 @@ local M = {
 		"hrsh7th/cmp-cmdline",
 		"saadparwaiz1/cmp_luasnip",
 		"L3MON4D3/LuaSnip",
+        "quangnguyen30192/cmp-nvim-ultisnips", -- cmp-nvim-ultisnips wird als Source eingebunden
+        "SirVer/ultisnips", -- UltiSnips Plugin selbst
 	},
 	lazy = false,
 }
@@ -73,6 +75,7 @@ M.config = function()
 		sources = cmp.config.sources({
 			{ name = "nvim_lsp" },
 			{ name = "luasnip" },
+			{ name = "ultisnips" },
 			{ name = "buffer" },
 			{ name = "path" },
 		}),
