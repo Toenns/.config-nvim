@@ -2,6 +2,7 @@
 return {
 	-- markdown previewer
 	-- install without yarn or npm
+	-- if plugin is not working out of the box, consider to call the installation manually by entering in the nvim command line `:call mkdp#util#install()`.
 	{
 		"iamcco/markdown-preview.nvim",
 		build = function()
